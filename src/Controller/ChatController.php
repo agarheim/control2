@@ -8,9 +8,8 @@ use App\Entity\Chat;
 use App\Repository\ChatRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use App\Form\ChatType;
-use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Routing\Annotation\Route;
+
 
 class ChatController extends AbstractController
 {
